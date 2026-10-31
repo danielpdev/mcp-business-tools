@@ -1,8 +1,8 @@
 {
   "mode": "fixture",
   "python": "3.12.13",
-  "recorded_at": "2026-10-31T13:50:36.786337+00:00",
-  "elapsed_seconds": 0.0121,
+  "recorded_at": "2026-10-31T13:57:02.675602+00:00",
+  "elapsed_seconds": 0.0127,
   "result": {
     "passed": true,
     "case": "approval replay cannot decrement inventory twice",
