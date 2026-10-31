@@ -1,0 +1,39 @@
+{
+  "mode": "fixture",
+  "python": "3.12.13",
+  "recorded_at": "2026-10-31T13:52:13.669671+00:00",
+  "elapsed_seconds": 0.0128,
+  "result": {
+    "before": [
+      {
+        "sku": "LAP-01",
+        "name": "Demo laptop",
+        "available": 7
+      }
+    ],
+    "prepared": {
+      "id": "d2150bc2-2c8d-44bb-94d4-a7e8946deb28",
+      "sku": "LAP-01",
+      "quantity": 2,
+      "status": "pending",
+      "fingerprint": "95be3b753a5225035e2649a85f9f3d23f5df11e3447380d5f1c882cde2d4ee39"
+    },
+    "approved": {
+      "id": "d2150bc2-2c8d-44bb-94d4-a7e8946deb28",
+      "status": "committed",
+      "replayed": false
+    },
+    "replay": {
+      "id": "d2150bc2-2c8d-44bb-94d4-a7e8946deb28",
+      "status": "committed",
+      "replayed": true
+    },
+    "after": [
+      {
+        "sku": "LAP-01",
+        "name": "Demo laptop",
+        "available": 5
+      }
+    ]
+  }
+}
