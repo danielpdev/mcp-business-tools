@@ -6,6 +6,12 @@ Typed inventory tools with capability checks and order approval.
 
 **Role focus:** MCP / Agent Integration / Python. **Status:** working local portfolio implementation, with synthetic data.
 
+## Demo
+
+![How MCP Business Tools works](docs/demo.gif)
+
+Edited replay of captured CLI outputs in deterministic fixture mode. This is not live model inference. [Full recording](docs/demo.mp4). Rebuild with `./scripts/render_gif.sh` (FFmpeg required).
+
 ## The engineering decision
 
 The MCP server exposes inventory reads and order preparation. Capability scopes come from the server process, never from tool arguments. Stock is committed only through a separate operator approval surface.
@@ -72,4 +78,4 @@ MIT for original source; dependencies/models retain their own licenses. See [thi
 
 [All 20 project sources and demos](https://github.com/danielpdev/mcp-business-tools/releases/tag/portfolio-v0.1.0) · [Project index and publication status](docs/PORTFOLIO.md).
 
-This repository also hosts the delivery archive for the full portfolio. Ten projects have standalone public repositories; GitHub temporarily rate-limited creation of the other ten. Each project in the archive is independently runnable.
+This repository also hosts the delivery archive for the full portfolio. All twenty projects now have separate public repositories, each with an animated GIF in its README. Each project in the archive is independently runnable.
