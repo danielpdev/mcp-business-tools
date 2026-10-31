@@ -67,3 +67,9 @@ The local demonstration does not include production authentication, secret manag
 Implemented with Codex assistance for Daniel Popa. The owner should review the code, run it, make an independent change and rehearse the tradeoffs before presenting it at interview. That human understanding check is pending and cannot be verified automatically. See [development notes](docs/DEVELOPMENT.md).
 
 MIT for original source; dependencies/models retain their own licenses. See [third-party notices](THIRD_PARTY.md).
+
+## Complete portfolio source bundle
+
+[All 20 project sources and demos](https://github.com/danielpdev/mcp-business-tools/releases/tag/portfolio-v0.1.0) · [Project index and publication status](docs/PORTFOLIO.md).
+
+This repository also hosts the delivery archive for the full portfolio. Ten projects have standalone public repositories; GitHub temporarily rate-limited creation of the other ten. Each project in the archive is independently runnable.
